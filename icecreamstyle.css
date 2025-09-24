@@ -14,11 +14,13 @@ h2, h3 {
     color: darkblue;
     text-shadow: 1px /*Horizontal Offset*/ 1px /*Vertical offset*/ 2px /*Blur Radius*/ white;
     border-radius: 25px;
-    background-color: goldenrod;
     padding: 4px;
-    h3 {
-        background-color: orange;
 }
+h2 {
+        background-color: goldenrod;
+}
+h3 {
+        background-color: orange;
 }
 p {
    font-family: futura, nunito, Verdana;
@@ -56,18 +58,18 @@ img {
     border: 4px solid grey;
     text-align: right;
     border-radius: 25px;
-    a {
+}
+.navbar a {
     color: white;
     size: 20px;
     font-family: futura, impact;
 }
-    a:visited {
+.navbar a:visited {
     color: white;
 }
-    a:hover {
+.navbar a:hover {
     color: yellow;
     font-weight: bold;
-}
 }
 /*      Header*/
 .header {
@@ -79,14 +81,14 @@ img {
     color: white;
     border: 4px solid grey;
     border-collapse: collapse;
-    h1 {
+}
+.header h1 {
     font-size: 50px;
     text-shadow: 2px 2px 4px black;
-    }
-    p {
+}
+.header p {
     font-size: 25px;
     font-weight: bold;
-}
 }
 /*      Wikipedia Quotes */
 .wikipedia {
