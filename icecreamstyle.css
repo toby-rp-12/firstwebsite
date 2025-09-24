@@ -6,11 +6,6 @@
     background-color: lightblue;
     color: rgb(0, 0, 0);
 }
-@media only screen and (min-width: 200px) {
-  body {
-    background-image: url("icecreambg.jpg");
-  }
-}
 /* Headings and Paragraphs */
 h1, h2, h3 {
     font-family: futura, arial;
@@ -18,11 +13,10 @@ h1, h2, h3 {
 h2, h3 {
     color: darkblue;
     text-shadow: 1px /*Horizontal Offset*/ 1px /*Vertical offset*/ 2px /*Blur Radius*/ white;
-    border: 2px solid goldenrod;
     border-radius: 25px;
     background-color: goldenrod;
+    padding: 4px;
     h3{
-        border: 2px solid orange;
         background-color: orange;
     }
 }
@@ -63,17 +57,17 @@ img {
     text-align: right;
     border-radius: 25px;
     a {
-        color: white;
-        size: 20px;
-        font-family: futura, impact;
+    color: white;
+    size: 20px;
+    font-family: futura, impact;
     }
-        a:visited {
-            color: white;
-        }
+    a:visited {
+    color: white;
+    }
     a:hover {
-            color: yellow;
-            font-weight: bold;
-        }
+    color: yellow;
+    font-weight: bold;
+    }
 }
 /*      Header*/
 .header {
@@ -86,12 +80,12 @@ img {
     border: 4px solid grey;
     border-collapse: collapse;
     h1 {
-        font-size: 50px;
-        text-shadow: 2px 2px 4px black;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
     }
     p {
-        font-size: 25px;
-        font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
     }
 }
 /*      Wikipedia Quotes */
@@ -149,4 +143,18 @@ ul, ol {
     font-family: roboto, futura, verdana;
     font-size: 15px;
     font-weight: bold;
+}
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 38px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 52px;
+  }
 }
