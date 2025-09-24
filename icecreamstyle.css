@@ -61,7 +61,7 @@ img {
 }
 .navbar a {
     color: white;
-    size: 20px;
+    font-size: 20px;
     font-family: futura, impact;
 }
 .navbar a:visited {
